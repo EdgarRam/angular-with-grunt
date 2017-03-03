@@ -1,6 +1,6 @@
-
-
 module.exports = ( _grunt, folder ) => {
+
+
     const grunt_init_config = {}
 
     const path = require('path')
@@ -18,5 +18,5 @@ module.exports = ( _grunt, folder ) => {
         }
     })
 
-     _grunt.initConfig( grunt_init_config )
+    _grunt.initConfig( grunt_init_config )
 }

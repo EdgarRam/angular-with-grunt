@@ -11,13 +11,13 @@ module.exports = ( _grunt ) => {
 
     _grunt.registerTask( 'dev', [
         'clean',
-        // 'copy',
-        // 'stylus',
+        'copy',
+        'stylus',
         // 'postcss',
-        // 'babel',
-        // 'pug',
-        // 'connect:server',
-        // 'watch',
+        'babel',
+        'pug',
+        'connect',
+        'watch',
     ] );
 
 

@@ -5,6 +5,6 @@ module.exports = function(grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    require( './built-helpers/config' )( grunt, './tasks' )
+    require( './built-helpers/grunt-task-loader' )( grunt, './tasks' )
 
 };

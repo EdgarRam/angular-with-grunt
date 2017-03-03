@@ -12,6 +12,17 @@ module.exports = ( _grunt ) => {
     }
 
 
+    api.config.index = {
+      expand: true,
+      cwd: _grunt.appconf.dirs.apps,
+      src: [
+          'index.pug',
+      ],
+      dest: _grunt.appconf.dirs.dev,
+      ext: '.html',
+    }
+
+
     api.config.files = {
         expand: true,
         cwd: _grunt.appconf.dirs.apps + '/views',

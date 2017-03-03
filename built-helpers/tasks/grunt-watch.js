@@ -27,9 +27,15 @@ module.exports = ( _grunt ) => {
 
 
     // views
-    api.config[ '-views' ] = {
+    api.config[ 'views' ] = {
         files: [ _grunt.appconf.dirs.apps + '/views/**/*.pug' ],
         tasks: [ 'pug' ]
+    }
+
+    //index
+    api.config[ 'index' ] = {
+        files: [ _grunt.appconf.dirs.apps + '/index.pug' ],
+        tasks: [ 'pug:index' ]
     }
 
 

@@ -9,7 +9,8 @@
         'myApp.controllers',
         'myApp.services',
         'ui.router',
+        'oc.lazyLoad',
     ] )
-    
+
 
 })()

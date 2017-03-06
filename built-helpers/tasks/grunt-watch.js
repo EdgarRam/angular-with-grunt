@@ -36,7 +36,7 @@ module.exports = ( _grunt ) => {
     //index
     api.config[ 'index' ] = {
         files: [ _grunt.appconf.dirs.apps + '/index.pug' ],
-        tasks: [ 'pug:index' ]
+        tasks: [ 'pug:index', 'injector' ]
     }
 
 

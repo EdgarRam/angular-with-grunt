@@ -8,7 +8,8 @@ module.exports = ( _grunt ) => {
 
 
     api.config.options = {
-        livereload: true
+        livereload: true,
+        event: ['added', 'deleted', 'changed'],
     }
 
     // scripts

@@ -7,7 +7,7 @@ module.exports = ( _grunt ) => {
     }
 
 
-    api.config.server = {
+    api.config.dev = {
         options: {
             port: _grunt.appconf.server.port,
             protocol: _grunt.appconf.server.protocol,
@@ -17,7 +17,7 @@ module.exports = ( _grunt ) => {
                 appName: 'starter-kit',
             },
             base: _grunt.appconf.dirs.dev,
-            livereload: true
+            livereload: true,
         }
     }
 

@@ -14,8 +14,9 @@ module.exports = ( _grunt ) => {
         'copy',
         'stylus',
         // 'postcss',
-        'babel',
         'pug',
+        'babel',
+        'injector',
         'connect',
         'watch',
     ] );
